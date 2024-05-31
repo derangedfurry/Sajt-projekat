@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="startGraphics.css">
+        <title>Paint</title>
+        <script src="Functions.js"></script>
+    </head>
+
+    <body class="main primary">
+
+        <header class="secondary">
+              
+            <form id="input" action="Signin.php" method="post" autocomplete="off">
+                Username: <input type="text" name="Username" pattern="[A-Za-z]{3,15}" title="Username 3 - 15 characters">
+                Password: <input type="password" id="Pass" name="Pass">
+                <input type="submit" name="submit" id="submit" value="Sign in">
+            </form>
+            
+        </header>
+
+        
+
+        <main class="primary">
+            
+            <aside class="secondary">
+                <form>
+                    <button class="ternary">Info</button>
+                    <button class="ternary"></button>
+                    <button class="ternary"></button>
+                    
+                </form>
+            </aside>
+            
+            <section id="main">
+        
+            </section>
+            
+            
+        </main>
+
+    </body>
+</html>

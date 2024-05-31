@@ -1,0 +1,167 @@
+.primary {
+    background-color: rgb(93, 158, 255);
+
+}
+
+.secondary {
+    
+    background-color: rgb(182, 206, 255);
+
+    border-color: rgb(21, 76, 127); 
+    
+    border-width: 3px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    border-style: solid;
+
+}
+
+.ternary {
+
+    background-color: rgb(182, 206, 255);
+
+    border-color: rgb(21, 76, 127); 
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+
+}
+
+body.main {
+    margin: 0 auto;  
+    display: block;
+}
+
+
+header.PHP {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 30px;
+    width: 100%;
+    height: 15%;
+
+}
+
+aside {
+    overflow: hidden;
+    display: flex;
+    margin-top: 0.7%;
+    width: 17%;
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 75%;
+}   
+
+section {
+    overflow-y: auto;
+    display: inline-block;
+    align-items: center;
+    margin-top: 0.7%;
+    margin-left: 3%;
+    
+    border: 2px solid black;
+    width: 70%;
+    
+}
+
+button {
+
+    font-size: 30px;
+    text-align: start;
+    position: static;
+
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 90%;
+    height: fit-content;
+
+}
+
+button:hover
+{
+    background-color: rgb(53, 151, 243); 
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    transition: 0.5s;
+}
+
+button:active
+{
+    background-color: red;
+    transition: 0s;
+}
+
+form {
+    width: 90%;
+}
+
+form#input{
+    padding-right: 3%;
+    margin-right: 2%;
+    position: relative;
+
+    width: fit-content;
+    height: fit-content;
+
+}
+
+form.PHPaside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+
+}
+input {
+    margin-right: 20px;
+    width: 120px;
+    height: fit-content;
+}
+
+input#submit{
+    width: fit-content;
+    text-align: center;
+}
+
+img.placeholder{
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+
+    background-color: gray;
+}
+  
+
+input[type="text"]{
+    align-self: center;
+    margin-top: 10%;
+    margin-right: 0%;
+    width: 150px;
+    
+    font-size: 20px;
+}
+
+.custom-file-upload{
+    margin-top: 40%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
